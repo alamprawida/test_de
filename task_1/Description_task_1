@@ -1,0 +1,6 @@
+# RESULT TASK 1
+
+Saya menggambarkan 2 flowchart pipeline yang pernah saya tangani.
+Case 1 - merupakan pipeline yang disusun untuk extraksi data dan melakukan transformasi hingga ke silver layer. Untuk saat ini, proses yang saya lakukan hanya sampai ke silver layer. Gold layer dan Visualisasi sudah ditangani oleh team yang lain
+
+Case 2 - merupakan pipeline yang dijalankan menggunakan webserver berbasis python. Trigger dari proses transformasi dan cleaning dilakukan oleh user_id surveyor / QC sedangkan user_id superadmin hanya akan trigger ke Postgree yang saat itu digunakan sebagai Gold Layer. Visualisasi menggunakan streamlit
