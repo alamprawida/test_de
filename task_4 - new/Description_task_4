@@ -1,6 +1,9 @@
 # Result task 4
 
 
+database dilakukan compres to zip karena ukuran terlalu besar
+
+
 1. Jawaban soal 1: 
 Arif melakukan kesalahan dalam proses input data karena kehilangan focus mulai tanggal 30-04-2021 sampai 08-05-2021. 
 Db_task_4.db :
@@ -39,8 +42,8 @@ PDF: task_4-new/result/visualisasi_task4-soal_4.pdf
 ANALISIS TAMBAHAN (JAWABAN soal 4 terakhir)
 Berdasarkan analisis data Sales cumulative sum produk per tanggal 18 Mei 2021, dapat disimpulkan bahwa performa penjualan Perusahaan saat ini menemui beberapa tantangan signifikan sekaligus menyimpan potensi besar. 
 Temuan pertama paling mencolok pertama adalah 71.8% produk kita tidak memiliki penjualan sama sekali pada rentang tanggal 23 April 2021 sampai 18 Mei 2021. Hal ini dapat diartikan bahwa sebagian besar barang yang kita sediakan saat ini “mati” atau berhenti digudang ataupun rak toko, tidak bergerak dan pada akhirnya dapat membebani modal Perusahaan. 
-Temuan selanjutnya terletak pada jaringan toko yang menjual produk kita. Dari sisi toko, tercatat sebanyak 80.9% toko hanya memiliki ataupun menjual 1 jenis produk saja. Sehingga toko-toko kita tidak menyediakan variasi pilihan produk bagi pelanggan yang datang. Akibatnya pendapatan perusahaan berasal dari penjualan yang sangat bergantung pada segelintir produk top-seller saja. Sebagian besar produk lainnya hanya menjadi beban tanpa kontribusi pemasukan. Produk-produk yang menopang pendapatan kita dapat dilihat pada tabel 1.1 ("\task_4\result\tabel 1.1.xlsx"). 
-Akan tetapi, analisis performa toko menunjukkan bahwa toko yang paling tinggi pencapaiannya ternyata sebagian besar adalah toko yang berani menyediakan variasi produk yang lebih banyak. Berikut 15 toko dengan performa tertinggi dapat dilihat dari tabel 1.2 ("\task_4\result\tabel 1.2.xlsx").
+Temuan selanjutnya terletak pada jaringan toko yang menjual produk kita. Dari sisi toko, tercatat sebanyak 80.9% toko hanya memiliki ataupun menjual 1 jenis produk saja. Sehingga toko-toko kita tidak menyediakan variasi pilihan produk bagi pelanggan yang datang. Akibatnya pendapatan perusahaan berasal dari penjualan yang sangat bergantung pada segelintir produk top-seller saja. Sebagian besar produk lainnya hanya menjadi beban tanpa kontribusi pemasukan. Produk-produk yang menopang pendapatan kita dapat dilihat pada tabel 1.1 (task_4 - new/result/tabel 1.1.xlsx). 
+Akan tetapi, analisis performa toko menunjukkan bahwa toko yang paling tinggi pencapaiannya ternyata sebagian besar adalah toko yang berani menyediakan variasi produk yang lebih banyak. Berikut 15 toko dengan performa tertinggi dapat dilihat dari tabel 1.2 (task_4 - new/result/tabel 1.2.xlsx).
 Dilain sisi, data yang ada menunjukkan satu potensi  besar pada pasar kita. Data mencatat bahwa 95.4% penjualan langsung terjadi dengan cepat diawal tanggal setelah restock. Hal ini membuktikan bahwa pasar kita sebenarnya sangat diminati dan menarik antusiasme. Masalah utama yang saat ini terjadi adalah manajemen stok yang kurang tepat dan kurangnya variasi disetiap toko. Dari data ini kita juga tau bahwa produk kita sebenarnya masih memiliki potensi yang cukup baik untuk waktu yang akan datang. 
 Berdasarkan temuan data di atas, langkah-langkah strategis yang harus segera diambil oleh perusahaan meliputi:
 1.	Rasionalisasi dan Pembersihan Katalog Produk
