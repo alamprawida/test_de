@@ -1,0 +1,29 @@
+# Result Task 3
+
+Terdapat contoh serial number yang harus didefinisikan logic untuk cara menyusunnya
+
+Serial Number terdiri dari 5 bagian, salah satu contoh :
+{DD} - {16} - {4D} - {1} - {R}
+{bagian 1} - {bagian 2} - {bagian 3} - {bagian 4} - {bagian 5}
+
+
+bagian 1 => value kolom number yang habis dibagi 2 (number % 2 == 0) maka dianggap bilangan genap, apabila tidak habis dibagi 2 maka dianggap bilangan ganjil
+apabila genap, maka bagian 1 = ({number}/2) * letter
+apabila ganjil, maka bagian 1 = letter
+
+bagian 2 => value kolom number merupakan pangkat dari angka 2
+maka bagian 2 = 2**{number}
+
+bagian 3 => merupakan gabungan dari value kolom number dan letter
+maka bagian 3 = f"{number}{letter}"
+
+bagian 4 => hampir sama seperti bagian 1, tapi ini valuenya akan terus berulang dimana value kolom number akan dicari sisa dari pembagian bilangan dari 3, bukan hasil baginya. operasi ini mengunakan operator modulo 
+maka bagian 4 = {number}%3
+
+bagian 5 => value bagian ini sangat bergantung pada value bagian 4, dimana jika value bagian 4 == 1 maka 'R', jika value bagian 4 == 2 maka 'RR', jika value bagian 4 == 0 maka 'O'. Tapi disini saya menambahkan jika kondisinya diluar itu maka akan print error untuk melakukan tracing apabila terdapat ketidak sesuaian
+
+
+
+task_3.ipynb -> script python read, logic, load nya
+result_task_3.xlsx -> hasilnya
+
