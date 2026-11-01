@@ -21,7 +21,8 @@
 -- (10, 'upper', '2021-08-16', 3000, 32, 68, NULL);
 
 
-
+DROP TABLE IF EXISTS result_task_2;
+CREATE TABLE result_task_2 AS
 WITH FilledData AS (
     SELECT 
         Itemid,
