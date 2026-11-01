@@ -1,0 +1,13 @@
+# Result Task 2
+
+database dibuat dengan menggunakan extension VS Code : SQLite
+Connection to Power BI : ODBC
+Visualisasi : Power BI
+Language : SQL
+
+
+koneksi.py -> set database pada extension SQLite
+
+database_task_2.db -> merupakan database yang dibuat untuk mengakomodasi tabel - tabel task 2
+
+query_task_2.sql -> terdapat query create struktur table warehouse, insert value sesuai dengan soal, solving soal task 2 
